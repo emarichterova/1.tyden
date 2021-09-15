@@ -7,11 +7,13 @@ body {
 }
 
 .hlavicka {
-    background-image: url(Obrázky/puntíky.png);
-    padding: 90px;
-    background-repeat: no-repeat;
+    /*background-image: url(Obrázky/puntíky.png);*/
+    /*padding: 90px;*/
+   /* background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
+    padding: 15px 15%;
+    background-color: #E6E6FA;
 
 }
 
@@ -60,4 +62,26 @@ a {
 
 .ostatni {
     padding-top: 0;
+}
+
+.ostatni img {
+    width: 300px;
+    float: right;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;    
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: #282425;
+    text-decoration: none;
+    padding: 20px 30px;
 }
