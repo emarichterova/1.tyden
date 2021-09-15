@@ -22,11 +22,16 @@ h1 {
 }
 
 h2 {
-    border: 2px violet;
+    text-decoration: underline;
+    text-decoration-color: #FFDFD3;
+    text-decoration-thickness: 7px;
 }
 
 h3 {
     font-size: 21px;
+    text-decoration: underline;
+    text-decoration-color: #FFF8B8;
+    text-decoration-thickness: 2px;
 }
 
 .paticka {
