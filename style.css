@@ -85,3 +85,7 @@ a {
     text-decoration: none;
     padding: 20px 30px;
 }
+
+.jmeno {
+    font-weight: bold;
+}
