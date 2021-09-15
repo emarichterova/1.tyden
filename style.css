@@ -8,11 +8,23 @@ body {
 
 .hlavicka {
     background-image: url(Obrázky/puntíky.png);
+    padding: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    border: 2px violet;
+}
+
+h3 {
+    font-size: 21px;
 }
 
 .paticka {
@@ -41,12 +53,11 @@ a {
     text-decoration: none;
 }
 
-.creme-bulee img {
-    float: right;
-    overflow: auto;
-    width: 100px;
-}
 
 .omne h2 {
     clear: left;
+}
+
+.ostatni {
+    padding-top: 0;
 }
