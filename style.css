@@ -55,7 +55,7 @@ section {
     overflow: auto;
 }
 
-a {
+.ostatni a {
     color: #8B7F74;
     text-decoration: none;
 }
@@ -87,8 +87,29 @@ a {
 .menu a {
     display: inline-block;
     color: #282425;
-    text-decoration: none;
+    /*text-decoration: none;*/
     padding: 20px 30px;
+    text-decoration-color: #FFF;
+    text-decoration-thickness: 6px;
+    transition: text-decoration 0.4s;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    text-decoration-color: #C9F1FF;
+}
+
+a {
+    color: #8B7F74;
+    text-decoration-color: #FFF;
+    text-decoration-thickness: 4px;
+    transition: text-decoration 0.4s;
+}
+
+a:hover,
+a:focus {
+    text-decoration-color: #FFDFD3;
 }
 
 .jmeno {
