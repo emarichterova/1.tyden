@@ -84,6 +84,8 @@ section {
     display: inline-block;
 }
 
+/*Přidáno v rámci dělání animace menu – až na .menu a display, color a padding*/
+
 .menu a {
     display: inline-block;
     color: #282425;
@@ -111,6 +113,8 @@ a:hover,
 a:focus {
     text-decoration-color: #FFDFD3;
 }
+
+/*Konec přidání v rámci animace menu*/
 
 .jmeno {
     font-weight: bold;
