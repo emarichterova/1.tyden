@@ -84,7 +84,7 @@ section {
     display: inline-block;
 }
 
-/*Přidáno v rámci dělání animace menu – až na .menu a display, color a padding*/
+/*Animace menu – podtržení + nějaké nastavení menu*/
 
 .menu a {
     display: inline-block;
@@ -102,17 +102,6 @@ section {
     text-decoration-color: #C9F1FF;
 }
 
-a {
-    color: #8B7F74;
-    text-decoration-color: #FFF;
-    text-decoration-thickness: 4px;
-    transition: text-decoration 0.4s;
-}
-
-a:hover,
-a:focus {
-    text-decoration-color: #FFDFD3;
-}
 
 /*Konec přidání v rámci animace menu*/
 
